@@ -9,10 +9,8 @@ export function addTask(text) {
     completed: false,
   };
   tasks.push(task);
-  saveTasks(tasks);
-  console.log("Task added:", task);
 
-  // renderTasks();
+  saveTasks(tasks);
 }
 
 // // // Renderizar tareas
@@ -24,13 +22,13 @@ export function addTask(text) {
 // //     filteredTasks = tasks.filter(task => task.completed);
 // //   }
 
-// //   taskList.innerHTML = "";
+// //   taskList.inner
+// //                 <span>${task.text}</span>
+// //                 <div>HTML = "";
 // //   filteredTasks.forEach(task => {
 // //     const li = document.createElement("li");
 // //     li.className = task.completed ? "completed" : "";
 // //     li.innerHTML = `
-// //                 <span>${task.text}</span>
-// //                 <div>
 // //                     <button onclick="toggleTask(${task.id})">${
 // //       task.completed ? "↩️" : "✅"
 // //     }</button>

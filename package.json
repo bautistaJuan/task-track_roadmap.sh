@@ -1,0 +1,20 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Task Tracker: Create a task tracker with a to-do list using JavaScript. (roadmap.sh - projects - frontend)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bautistaJuan/task-track_roadmap.sh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bautistaJuan/task-track_roadmap.sh/issues"
+  },
+  "homepage": "https://github.com/bautistaJuan/task-track_roadmap.sh#readme"
+}

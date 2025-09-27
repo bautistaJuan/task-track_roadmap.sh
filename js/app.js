@@ -1,5 +1,5 @@
 import { addTask } from "./todoActions.js";
-
+import { getTasks } from "./database.js";
 function main() {
   const taskInput = document.getElementById("taskInput");
   const addTaskBtn = document.getElementById("addTask");
@@ -8,13 +8,19 @@ function main() {
   // const clearCompletedBtn = document.getElementById("clearCompleted");
   // const filterBtns = document.querySelectorAll(".filter-btn");
 
-  // Eventos
+  // Events
   addTaskBtn.addEventListener("click", () => {
     const text = taskInput.value.trim();
     if (text) {
       addTask(text);
       taskInput.value = "";
+      return;
     }
+  });
+  const tareas = getTasks();
+
+  tareas.map(t => {
+    console.log("TUS T", t);
   });
 
   // taskInput.addEventListener("keypress", e => {
